@@ -27,22 +27,24 @@ This project predicts **whether a customer is likely to churn**, enabling busine
 
 ## 🏗️ Project Architecture
 
+```txt
 customer-churn-ml/
 │
-├── app/ # Streamlit application
-│ └── app.py
+├── app/                     # Streamlit application
+│   └── app.py
 │
-├── notebooks/ # ML pipeline notebooks
-│ ├── 01_eda.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_training.ipynb
-│ └── 04_shap_explainability.ipynb
+├── notebooks/               # ML workflow notebooks
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_shap_explainability.ipynb
 │
-├── data/ # Dataset (CSV)
-├── artifacts/ # Models, preprocessors, plots
-├── screenshots/ # App screenshots
-├── README.md
-└── requirements.txt
+├── data/                    # Dataset (CSV)
+├── artifacts/               # Saved model, preprocessor, plots
+├── screenshots/             # App screenshots
+├── requirements.txt
+└── README.md
+```
 
 
 ---
@@ -106,14 +108,21 @@ This makes predictions **transparent and trustworthy**.
 pip install -r requirements.txt
 ### 2️⃣ Run Streamlit app
 streamlit run app/app.py
-###3️⃣ Open browser
+### 3️⃣ Open browser
 http://localhost:8501
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Python
-pandas / numpy
-scikit-learn
-SHAP
-matplotlib / seaborn
-Streamlit
-Git & GitHub
+Programming Language: Python
+
+Data Processing: pandas, numpy
+
+Machine Learning: scikit-learn
+
+Model Explainability: SHAP
+
+Visualization: matplotlib, seaborn
+
+Web Application: Streamlit
+
+Version Control: Git & GitHub
+
